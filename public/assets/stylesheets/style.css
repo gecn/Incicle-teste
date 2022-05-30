@@ -1,0 +1,750 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+    color: #707070;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: #F2F3F5;
+}
+
+header{
+    background: #fff;
+    height: 3.438rem;
+    align-items: center;
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2), 0 2px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+header img{
+    width: 9.125rem;
+    margin-left: 2.563rem;
+    margin-top: 8px;
+}
+
+.container1{
+    width: 48%;
+}
+
+.infos h2{
+    padding-left: 20px;
+}
+
+.infos p{
+    padding-left: 20px;
+
+}
+
+.handebol{
+    background-color: rgb(255, 255, 255);
+    width: 135%;
+    height: 100px;
+    margin-top:30px;
+    margin-left: 60px;
+    display: flex;
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2), 0 2px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.handebol img{
+    width:90px;
+    height: 90px;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.spanhandebol{
+    display: flex;
+    align-items: center;
+}
+
+.spanhandebol span{
+    background-color: #3489B1;
+    font-size: small;
+    margin-left: 23px;
+    color: white;
+}
+
+
+.almoco{
+    background-color: rgb(255, 255, 255);
+    width: 135%;
+    height: 100px;
+    margin-top:30px;
+    margin-left: 60px;
+    display: flex;
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2), 0 2px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.almoco img{
+    width:90px;
+    height: 90px;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+
+.spanalmoco{
+    display: flex;
+    align-items: center;
+}
+
+.spanalmoco span{
+    background-color: #EE8686;
+    font-size: small;
+    margin-left: 23px;
+    color: black;
+
+}
+
+.servicos{
+    background-color: rgb(255, 255, 255);
+    width: 135%;
+    height: 100px;
+    margin-top:30px;
+    margin-left: 60px;
+    display: flex;
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2), 0 2px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.servicos img{
+    width:90px;
+    height: 90px;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.spanservicos{
+    display: flex;
+    align-items: center;
+}
+
+.spanservicos span{
+    background-color: #707070;
+    font-size: small;
+    margin-left: 23px;
+    color:white;
+
+}
+
+.feriado{
+    background-color: rgb(255, 255, 255);
+    width: 135%;
+    height: 100px;
+    margin-top:30px;
+    margin-left: 60px;
+    display: flex;
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2), 0 2px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.feriado img{
+    width:90px;
+    height: 90px;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.spanferiado{
+    display: flex;
+    align-items: center;
+}
+
+.spanferiado span{
+    background-color: #3489B1;
+    font-size: small;
+    margin-left: 23px;
+    color: white;
+
+}
+
+
+.desenvolvedor{
+    background-color: rgb(255, 255, 255);
+    width: 135%;
+    height: 100px;
+    margin-top:30px;
+    margin-left: 60px;
+    display: flex;
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2), 0 2px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.desenvolvedor img{
+    width:90px;
+    height: 90px;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.spandesenvolvedor{
+    display: flex;
+    align-items: center;
+}
+
+.spandesenvolvedor span{
+    background-color: #EE8686;
+    font-size: small;
+    margin-left: 23px;
+    color: black;
+
+}
+
+.divulgacao-de-servico{
+    background-color: rgb(255, 255, 255);
+    width: 135%;
+    height: 100px;
+    margin-top:30px;
+    margin-left: 60px;
+    display: flex;
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2), 0 2px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.divulgacao-de-servico img{
+    width:90px;
+    height: 90px;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.spandivulgacao-de-servico{
+    display: flex;
+    align-items: center;
+}
+
+.spandivulgacao-de-servico span{
+    background-color: #707070;
+    font-size: small;
+    margin-left: 23px;
+    color:white;
+
+}
+
+
+.container2{
+    width: 28%;
+}
+
+.endomarketing{
+    width: 133vh;
+    margin-left: 60px;
+    margin-top: 50px;
+}
+
+.endomarketing select{
+    margin-left: 28vw;
+    border-radius: 8px;
+}
+
+.endomarketing button{
+    width: 90px;
+    margin-left: 10px;
+    border-radius: 8px;
+    background-color: rgba(52, 137, 177, 1);
+    border:rgba(52, 137, 177, 1);
+    color: white;
+    cursor: pointer;
+    
+}
+
+.infoendomarketing{
+    background-color:#FFF2DE;
+    width: 300px;
+    height: 370px;
+    margin-top: 60px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: solid 1px ;
+}
+
+.infoendomarketing button{
+    width: 112px;
+    height: 37px;
+    cursor: pointer;
+}
+
+.quadrogestao{
+    background-color: #FDFDFD;
+    margin-top: 30px;
+    width: 300px;
+    height: 420px;
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2), 0 2px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.quadrogestao h4{
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.demonstrativo1{
+    background-color: rgba(52, 137, 177, 0.1);
+    margin-top: 5%;
+    height: 100px;
+    width: 286px;
+    margin-left: 5px;
+}
+
+.titulo1{
+    display: flex;
+}
+
+.demonstrativo1 img{
+    height: 67px;
+    width: 67px;
+    margin-left: 1px;
+    margin-top: 5px;
+}
+
+.demonstrativo2{
+    background-color: rgba(52, 137, 177, 0.1);
+    margin-top: 10%;
+    height: 100px;
+    width: 286px;
+    margin-left: 5px;
+}
+
+.titulo2{
+    display: flex;
+}
+
+.demonstrativo2 img{
+    height: 67px;
+    width: 67px;
+    margin-left: 1px;
+    margin-top: 5px;
+}
+
+.demonstrativo3{
+    background-color: rgba(52, 137, 177, 0.1);
+    margin-top: 10%;
+    height: 100px;
+    width: 286px;
+    margin-left: 5px;
+}
+
+.titulo3{
+    display: flex;
+}
+
+.demonstrativo3 img{
+    height: 67px;
+    width: 67px;
+    margin-left: 1px;
+    margin-top: 5px;
+}
+
+footer{
+    margin-top: 20px;
+}
+
+@media only screen and (min-width: 390px) {
+    
+        main{
+            background-color: #F2F3F5;
+        }
+
+        header{
+            width: 100vw;
+        }
+
+        .endomarketing{
+            margin-left: 5vw;
+        }
+
+        .endomarketing select{
+            margin-left: 2px;
+        }
+
+        .handebol{
+            width: 93vw;
+            margin-left:4vw;
+        }
+
+        .handebol h2{
+            font-size: 13px;
+        }
+
+        .handebol p{
+            font-size: 11px;
+        }
+
+        .almoco{
+            width: 93vw;
+            margin-left: 4vw;
+        }
+
+        .almoco h2{
+            font-size: 13px;
+        }
+
+        .almoco p{
+            font-size: 10px;
+        }
+
+        .almoco a{
+            font-size: 10px;
+        }
+
+        .servicos{
+            width: 93vw;
+            margin-left:4vw;
+        }
+
+        .servicos h2{
+            font-size: 13px;
+        }
+
+        .servicos p{
+            font-size: 11px;
+        }
+
+        .feriado{
+            width: 93vw;
+            margin-left:4vw;
+        }
+
+        .feriado h2{
+            font-size: 13px;
+        }
+
+        .feriado p{
+            font-size: 11px;
+        }
+
+        .desenvolvedor{
+            width: 93vw;
+            margin-left: 4vw;
+        }
+
+        .desenvolvedor h2{
+            font-size: 13px;
+        }
+
+        .desenvolvedor p{
+            font-size: 10px;
+        }
+
+        .desenvolvedor a{
+            font-size: 10px;
+        }
+
+        .divulgacao-de-servico{
+            width: 93vw;
+            margin-left:4vw;
+        }
+
+        .divulgacao-de-servico h2{
+            font-size: 13px;
+        }
+
+        .divulgacao-de-servico p{
+            font-size: 11px;
+        }
+
+        .infoendomarketing{
+            margin-left: 45px;
+        }
+
+        .quadrogestao{
+            margin-left: 45px;
+        }
+        
+}
+
+@media only screen and (min-width: 640px) {
+
+        header{
+            width: 99vw;
+        }
+
+        .endomarketing{
+            margin-left: 35vw;
+        }
+
+        .endomarketing select{
+            margin-left: 2px;
+        }
+
+        .handebol{
+            width: 92vw;
+            margin-left:4vw;
+        }
+
+        .handebol h2{
+            font-size: 25px;
+        }
+
+        .handebol p{
+            font-size: 15px;
+        }
+
+        .almoco{
+            width: 92vw;
+            margin-left: 4vw;
+        }
+
+        .almoco h2{
+            font-size: 25px;
+        }
+
+        .almoco p{
+            font-size: 13px;
+        }
+
+        .almoco a{
+            font-size: 12px;
+        }
+
+        .servicos{
+            width: 92vw;
+            margin-left:4vw;
+        }
+
+        .servicos h2{
+            font-size: 25px;
+        }
+
+        .servicos p{
+            font-size: 15px;
+        }
+
+        .feriado{
+            width: 92vw;
+            margin-left:4vw;
+        }
+
+        .feriado h2{
+            font-size: 25px;
+        }
+
+        .feriado p{
+            font-size: 15px;
+        }
+
+        .desenvolvedor{
+            width: 92vw;
+            margin-left: 4vw;
+        }
+
+        .desenvolvedor h2{
+            font-size: 25px;
+        }
+
+        .desenvolvedor p{
+            font-size: 13px;
+        }
+
+        .desenvolvedor a{
+            font-size: 12px;
+        }
+
+        .divulgacao-de-servico{
+            width: 92vw;
+            margin-left:4vw;
+        }
+
+        .divulgacao-de-servico h2{
+            font-size: 25px;
+        }
+
+        .divulgacao-de-servico p{
+            font-size: 15px;
+        }
+
+        .infoendomarketing{
+            margin-left: 30vw;
+        }
+
+        .quadrogestao{
+            margin-left: 30vw;
+        }
+}
+
+@media only screen and (min-width: 1000px) {
+         
+        main{
+            display: flex;
+            justify-content: space-around;
+            margin-top: 9px;
+            margin-right: 1px;
+        }
+    
+            header{
+            width: 99vw;
+        }
+
+        .container1{
+            margin-left: 60vw;
+        }
+
+
+        .endomarketing{
+            width: 300vh;
+            margin-left: 45px;
+            margin-top: 50px;
+            display: flex; 
+            justify-content:space-between;
+        }
+
+        .endomarketing button{
+            width: 7vw;
+            margin-right: 140vw;
+        }
+
+        .endomarketing select{
+            width: 90px;
+            margin-left: 5vw;
+        }
+
+        .handebol{
+            width: 55vw;
+            padding-right: 10px;
+        }
+
+        .handebol h2{
+            font-size: 23px;
+        }
+
+        .almoco{
+            width: 55vw;
+            padding-right: 10px;
+        }
+
+        .almoco p{
+            font-size: 12px;
+        }
+
+        .almoco a{
+            font-size: 10px;
+        }
+
+        .almoco h2{
+            font-size: 23px;
+        }
+
+        .servicos{
+            width: 55vw;
+            padding-right: 10px;
+        }
+
+        .servico h2{
+            font-size: 23px;
+        }
+
+        .feriado{
+            width: 55vw;
+            padding-right: 10px;
+        }
+
+        .feriado h2{
+            font-size: 23px;
+        }
+
+        .desenvolvedor{
+            width: 55vw;
+            padding-right: 10px;
+        }
+
+        .desenvolvedor h2{
+            font-size: 23px;
+        }
+
+        .desenvolvedor p{
+            font-size: 12px;
+        }
+
+        .desenvolvedor a{
+            font-size: 10px;
+        }
+
+        .divulgacao-de-servico{
+            width: 55vw;
+            padding-right: 10px;
+        }
+
+        .divulgacao-de-servico h2{
+            font-size: 23px;
+        }
+
+        .container2{
+            margin-right: 90vw;
+        }
+
+        .infoendomarketing{
+            margin-left: 18vw;
+        }
+
+        .quadrogestao{
+            margin-left: 18VW;
+        }
+
+}
+
+@media only screen and (min-width: 1116px) {
+
+
+    main{
+        display: flex;
+        justify-content: space-around;
+        margin-top: 9px;
+        margin-right: 1px;
+    }
+
+        header{
+        width: 99vw;
+    }
+
+    .container1{
+        margin-left: 60vw;
+    }
+
+
+    .endomarketing{
+        width: 300vh;
+        margin-left: 170px;
+        margin-top: 50px;
+        display: flex; 
+        justify-content:space-between;
+    }
+
+    .endomarketing button{
+        width: 7vw;
+        margin-right: 90vw;
+    }
+
+    .endomarketing select{
+        width: 90px;
+        margin-left: 25vw;
+    }
+
+    .handebol{
+        margin-left: 170px;
+    }
+
+    .almoco{
+        margin-left: 170px;
+    }
+
+
+    .servicos{
+        margin-left: 170px;
+    }
+
+    .feriado{
+        margin-left: 170px;
+    }
+
+    .desenvolvedor{
+        margin-left: 170px;
+    }
+
+    .divulgacao-de-servico{
+        margin-left: 170px;
+    }
+
+    .container2{
+        margin-left: 100px;
+    }
+
+}
